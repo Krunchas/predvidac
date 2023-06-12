@@ -1,3 +1,102 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+  background-color: #666;
+  height: 100dvh;
+  width: 100%;
+}
+
+.predvedetBtn{
+  background-color: skyblue;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.predvedetBtn:hover {
+  background-color: rgb(77, 195, 241);
+  outline: none;
+}
+
+.number{
+  height: 70px;
+  width: 70px;
+  padding-left: 15px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.number:focus{
+  outline: skyblue;
+}
+
+.number:focus-visible{
+  outline: skyblue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Main styling of the app */
+
+h1 {
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.number1 {
+  position: absolute;
+  inset: 100px auto auto 20px;
+}
+
+.number2 {
+  position: absolute;
+  inset: 100px auto auto 100px;
+}
+
+.predvedetBtn {
+  position: absolute;
+  inset: 110px auto auto 200px;
+}
+
+.popisZnamka{
+  position: absolute;
+  color: white;
+  inset: 175px auto auto 26px;
+  font-size: 17px;
+}
+
+.popisVaha{
+  position: absolute;
+  color: white;
+  inset: 175px auto auto 116px;
+  font-size: 17px;
+}
+
+.info{
+  color: #333;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  inset: 225px auto auto 20px;
+}
+
+.infoText{
+  color: #333;
+  height: 30px;
+  position: absolute;
+  inset: 226px auto auto 59px;
+  font-size: 18px;
+}
