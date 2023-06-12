@@ -1,0 +1,1 @@
+# Predvidac znamek, do skoly
